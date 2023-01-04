@@ -22,6 +22,9 @@ Although this is not a requirement for your project, see if you can also impleme
 
 Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
+## Nodemailer
+password: Bootcamp@1
+
 ## Motivation of Applciation Development 
 Allow a customer to order ready made meals online, so that is delivered to them at home. 
 
