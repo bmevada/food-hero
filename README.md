@@ -26,7 +26,17 @@ Consider integrating the Stripe payment platform. Even if you don’t create an 
 password: Bootcamp@1
 email: food.hero.mevada
 
-## Motivation of Applciation Development 
+### CSS Styling
+
+Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
+
+* Look into the concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include [styled-components](https://styled-components.com/) and [Emotion](https://emotion.sh/docs/introduction).
+
+* Try using a component library, such as [Semantic UI](https://semantic-ui.com/), [Chakra UI](https://chakra-ui.com/), or [Ant Design](https://ant.design/).
+
+* Create all the CSS for your application just using CSS.
+
+## Motivation of Application Development 
 Allow a customer to order ready made meals online, so that is delivered to them at home. 
 
 Admin - to allow customers to place an order and confirm that the order has been placed.
@@ -137,27 +147,11 @@ The following vidoes shows an example of the functionality of the application:
  - npm i
  - npm start
 
-### CSS Styling
-
-Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
-
-* Look into the concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include [styled-components](https://styled-components.com/) and [Emotion](https://emotion.sh/docs/introduction).
-
-* Try using a component library, such as [Semantic UI](https://semantic-ui.com/), [Chakra UI](https://chakra-ui.com/), or [Ant Design](https://ant.design/).
-
-* Create all the CSS for your application just using CSS.
-
-Ultimately, it doesn't matter which of these options you choose&mdash;i
-
-
 ## Presentation 
 
 https://docs.google.com/presentation/d/1Qwws93EXnLKJdss1O20T8mqbwv9afr9d2NkigSuI-_4/edit?usp=sharing
 
-Template
+Final steps to complete:
 
-Use this [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to address the following:
-
-
-* Links to the deployed application and the GitHub repository. Use the [Guide to Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
+ Use the [Guide to Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
 
