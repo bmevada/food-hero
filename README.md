@@ -119,6 +119,7 @@ The following vidoes shows an example of the functionality of the application:
  - css - *used for the style and layout of the page*
  - styled-components - *instead of bootstrap, concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way*
   - semantic-ui -*component library*
+ - ReactJs & Redux Toolkit 
 
 
 ### Back End
