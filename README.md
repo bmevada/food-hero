@@ -56,6 +56,7 @@ AND make a payment for these
 
 AS AN Admin
 I WANT to review orders placed by customers
+And fulfil dispatching them ready to be delivered
 ```
 
 ## Acceptance Criteria
