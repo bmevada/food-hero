@@ -24,6 +24,11 @@ Consider integrating the Stripe payment platform. Even if you don’t create an 
 
 https://donate.stripe.com/8wM16Wc7vaJF5Fe9AA
 
+pk key: pk_live_51MMhWsACbJPZAlrvJo5nVzplSHSnSIthZeIYnRnqtI8PAW8FprAeo0I7jC2ct0PrpBuIzcdCrOlVpfWnrFPbZpKz00IgVfLkq3
+
+sk: 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
+
+
 ## Nodemailer
 password: Bootcamp@1
 email: food.hero.mevada
