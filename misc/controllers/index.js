@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { User, Product, OrderItem } = require('../models');
 const Cart = require('../models/cart');
-const withAuth = require('../utils/auth');
+const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
@@ -75,7 +75,7 @@ router.get('/checkout', withAuth, async (req, res) => {
 
 
   // EMAIL SERVICE
-  const EmailService = require('../utils/emailService');
+  const EmailService = require('../../utils/emailService');
   const emailService = new EmailService();
   emailService.email.to = 'food.hero.mevada@gmail.com';
 //   Password: Bootcamp@1
