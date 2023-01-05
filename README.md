@@ -6,7 +6,6 @@ A MERN stack single-page application has been created that works with real-world
 
 A simple application has been created allowing the user to view the availbale meals to be delivered to their door. The database communicate with the database to place an order in real time.
 
-
  This app runs in the browser and features dynamically updated using various technologies as identified below. The application has been deployed using heroku. It is a clean and with a polished UI, responsive user interface that adapts to multiple screen sizes and responds to user interface.
 
 The application is interactive (i.e., accept and respond to user input); includes authentication (JWT); protects sensitive API key information on the server.
@@ -24,9 +23,9 @@ Consider integrating the Stripe payment platform. Even if you don’t create an 
 
 https://donate.stripe.com/8wM16Wc7vaJF5Fe9AA
 
-pk key: pk_live_51MMhWsACbJPZAlrvJo5nVzplSHSnSIthZeIYnRnqtI8PAW8FprAeo0I7jC2ct0PrpBuIzcdCrOlVpfWnrFPbZpKz00IgVfLkq3
+pk key: pk_test_51MMhWsACbJPZAlrvPya09OyIXDvfDoXUry6hRfA7hL2IvIsqkcxidcdULpB3i51SyKhdtTyAmMUrHnXRh4TfANYo00taOsI5e5
 
-sk: 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
+sk: sk_test_51MMhWsACbJPZAlrvwHc6cPQPBTw8Qx1dtAaFgsm6sR5X34dMVezGzoSwXe7D6bhLnBsCTPjz6ijPGeYbUU21nNZp00vvd27sMV
 
 
 ## Nodemailer
