@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const path = require("path");
 const multer = require("multer");
-const auth = require("../middleware/auth");
+const auth = require("../utils/auth");
 const Product = require("../models/productModel");
 
 // Add multer for uploading images
