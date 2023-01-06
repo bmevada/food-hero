@@ -105,7 +105,7 @@ db.once('open', async () => {
       quantity: 500
     },
     {
-      name: 'Buttered Paneer',
+      name: 'Plant Based Buttered Paneer',
       description:
         '',
       image: '',
@@ -113,7 +113,31 @@ db.once('open', async () => {
       quantity: 500
     },
     {
-      name: 'Broccolli and Chicken Rice',
+      name: 'Salad Feta',
+      description:
+        '',
+      image: '',
+      price: 10.99,
+      quantity: 500
+    },
+    {
+      name: 'Vegan Satay Sweet Potato Curry',
+      description:
+        '',
+      image: '',
+      price: 10.99,
+      quantity: 500
+    },
+    {
+      name: 'Thai Red Rice',
+      description:
+        '',
+      image: '',
+      price: 10.99,
+      quantity: 500
+    },
+    {
+      name: 'Tofu Veg Rice',
       description:
         '',
       image: '',
