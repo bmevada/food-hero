@@ -1,6 +1,8 @@
 const jwt = require("jsonwebtoken");
 
-// Add encryption - Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services, and resources that are permitted with that token
+// Add encryption - Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services, and resources that are permitted with that token.
+
+// A user should be able to sign up or log in to their account and receive a JSON Web Token with a two-hour expiration.
 
 const auth = (req, res, next) => {
   try {

@@ -2,7 +2,6 @@ const db = require('./connection');
 const { User, Product, Category } = require('../models/modalModel');
 
 db.once('open', async () => {
-  await Category.deleteMany();
 
 
   await Product.deleteMany();
