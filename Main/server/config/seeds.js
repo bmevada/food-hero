@@ -19,31 +19,23 @@ db.once('open', async () => {
     {
       name: 'Broccolli and Chicken Rice',
       description:
-        '',
-      image: '',
-      price: 10.99,
+        'Choice of brown rice or grain whte rice, chicken breast and broccoli florets with red peppers and soy sauce.',
+      image: 'broccolli-pepper-chicken-rice.jpeg',
+      price: 15.99,
       quantity: 500
     },
     {
       name: 'Chickpea Salad',
       description:
-        '',
-      image: '',
+        'Chickpea Salad loaded with crisp cucumbers, juicy tomatoes, creamy avocado, feta cheese and chickpea',
+      image: 'chickpea-salad.jpg',
       price: 10.99,
       quantity: 500
     },
     {
       name: 'Creamy scrambled eggs',
       description:
-        '',
-      image: '',
-      price: 10.99,
-      quantity: 500
-    },
-    {
-      name: 'Broccolli and Chicken Rice',
-      description:
-        '',
+        'Creamy scrambled eggs with mushrooms and tomatoes',
       image: '',
       price: 10.99,
       quantity: 500
@@ -51,23 +43,7 @@ db.once('open', async () => {
     {
       name: 'Honey Sesame chicken',
       description:
-        '',
-      image: '',
-      price: 10.99,
-      quantity: 500
-    },
-    {
-      name: 'Broccolli and Chicken Rice',
-      description:
-        '',
-      image: '',
-      price: 10.99,
-      quantity: 500
-    },
-    {
-      name: 'Honey Sesame Chicken',
-      description:
-        '',
+        'Crispy baked chicken smothered in a sweet thick honey sesame sauce. A popular dish at Chinese restaurants.',
       image: '',
       price: 10.99,
       quantity: 500
@@ -75,9 +51,9 @@ db.once('open', async () => {
     {
       name: 'Jerk Chicken Pilaf',
       description:
-        '',
+        'Jerk Chicken With Rice And Peas Pilaf Recipe is a Caribbean dish made with roasted chicken on rice pilaf. Chicken is oven roasted with spices. The mildly spiced rice pilaf is made with peas and then the jerk chicken is served placed on top of the rice pilaf, with a dash of lemon juice on top.',
       image: '',
-      price: 10.99,
+      price: 17.99,
       quantity: 500
     },
     {

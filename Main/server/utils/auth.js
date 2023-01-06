@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 
-// Add encryption routes
+// Add encryption - Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services, and resources that are permitted with that token
 
 const auth = (req, res, next) => {
   try {
