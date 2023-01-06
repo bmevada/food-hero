@@ -1,4 +1,4 @@
-const { Food, Matchup } = require('../models');
+const { Food, Matchup } = require('../models/modalModel');
 
 const resolvers = {
   Query: {

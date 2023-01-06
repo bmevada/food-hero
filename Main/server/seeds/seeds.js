@@ -1,5 +1,5 @@
 const db = require('../config/connection');
-const { Food } = require('../models');
+const { Food } = require('../models/modalModel');
 
 const foodData = require('./foodData.json');
 
