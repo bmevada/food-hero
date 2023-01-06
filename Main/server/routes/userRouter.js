@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const auth = require("../utils/auth");
 const User = require("../models/userModel");
 
-//User Sign up Page
+//User Sign up Page - added here
 
 router.post("/register", async (req, res) => {
   try {
