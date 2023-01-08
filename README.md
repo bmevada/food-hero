@@ -51,6 +51,7 @@ Admin - to allow customers to place an order and confirm that the order has been
 ```md
 Github page: https://github.com/bmevada/food-hero.git
 Deployed application on heroku: 
+https://git.heroku.com/food-hero.git
 ```
 ## User Story
 ```md
