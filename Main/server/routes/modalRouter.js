@@ -1,3 +1,5 @@
+// Modal Router is not required - this needs to be removed
+
 const router = require("express").Router();
 const Modal = require("../models/modalModel");
 const mongoose = require("mongoose");

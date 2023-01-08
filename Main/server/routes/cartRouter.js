@@ -1,3 +1,5 @@
+// Cart Router is not required - this needs to be removed
+
 const router = require("express").Router();
 const auth = require("../schema/auth");
 const Product = require("../models/productModel");

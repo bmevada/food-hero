@@ -1,3 +1,6 @@
+// Cart Model is not required - this needs to be removed
+
+
 const mongoose = require("mongoose");
 const User = require('./userModel');
 const Product = require('./productModel');
