@@ -16,10 +16,19 @@ const orderSchema = new mongoose.Schema({
             type: Number
         }
     }],
+    address: {
+        type: String
+    },
+    phone: {
+        type: String
+    },
+    extra: {
+        type: String
+    },
     createdAt: {
         type: Date,
         default: Date.now()
     }
 });
 
-module.exports = User = mongoose.model("orders", orderSchema);
+module.exports = Order = mongoose.model("order", orderSchema);

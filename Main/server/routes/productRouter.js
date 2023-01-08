@@ -29,7 +29,7 @@ router.post("/", auth, upload, async (req, res) => {
 
 router.get('/recent', async (req, res) => {
   try {
-    const products = await Product.find().sort({ _id: -1 }).limit(5)
+    const products = await Product.find().sort({ _id: -1 }).limit(4)
     return res.status(200).json({ success: true, products: products })
   } catch (err) {
     console.log(err)
