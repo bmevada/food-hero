@@ -1,0 +1,80 @@
+.individual-carousel {
+  display: flex;
+  justify-content: space-between;
+  .carousel-detail {
+    padding: 40px 30px 50px 35px;
+    width: 50%;
+    color: #3C1C21;
+    .detail-title {
+      font-size: 35px;
+      font-weight: 700;
+      text-align: left;
+      span {
+        color: #659B9B;
+      }
+      @media only screen and (max-width: 650px) {
+        font-size: 30px;
+      }
+      @media only screen and (max-width: 510px) {
+        font-size: 25px;
+      }
+    }
+    .detail-content {
+      text-align: left;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 56px;
+    }
+    .detail-additional {
+      text-align: left;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 21px;
+    }
+    .detail-price {
+      text-align: right;
+      font-size: 35px;
+      font-weight: 700;
+      margin-top: 24px;
+      color: #659B9B;
+    }
+    hr {
+      background-color: #659B9B;
+      opacity: 100;
+      margin-top: 11px;
+      margin-bottom: 20px;
+    }
+    .detail-button {
+      float: left;
+      .button {
+        button {
+          width: 161px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+  .carousel-img {
+    width: 50%;
+    img {
+      height: 447px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    display: block;
+    .carousel-detail {
+      width: 100%;
+      .detail-button {
+        margin-bottom: 30px;
+      }
+    }
+    .carousel-img {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,60 @@
+@import '';
+// TO DO: Add path once folders have been structured
+
+.button {
+  display: flex;
+  justify-content: center;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #659B9B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    @media only screen and (max-width: $x-size) {
+      margin-bottom: 0;
+    }
+
+    @media only screen and (max-width: $x-s-size) {
+      font-size: 1rem;
+      height: 30px;
+    }
+
+    @media only screen and (max-width: $s-size) {
+      font-size: 0.8rem;
+    }
+
+    &:hover {
+      background-color: #ffffff;
+      color: #659B9B;
+      border: 2px solid #659B9B;
+      transition-duration: 0.3s;
+    }
+
+    &:disabled,
+    &[disabled] {
+      background-color: #F3F3F3;
+      border: 2px solid #F3F3F3;
+      color: #9D9B9B;
+    }
+  }
+
+  .active {
+    background-color: #4e7026;
+    color: #ffffff;
+  }
+
+  .active:disabled,
+  .active[disabled] {
+    background-color: #F3F3F3;
+    border: 2px solid #F3F3F3;
+    color: #9D9B9B;
+  }
+}

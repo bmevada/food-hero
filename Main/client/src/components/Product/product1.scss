@@ -1,0 +1,24 @@
+.individual-product-Comp {
+  background-color: white;
+  width: 309px;
+  height: 447px;
+  border-radius: 10px;
+  padding: 24px;
+  .product-title {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: #3C1C21;
+    height: 100px;
+  }
+  .product-img {
+    width: 80%;
+  }
+  .button {
+    button {
+      width: 100%;
+      margin-bottom: 0px;
+      margin-top: 50px;
+    }
+  }
+}
