@@ -1,3 +1,4 @@
+// TO DO - REVIEW BEFORE REMOVING???
 import React, { Component } from "react";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

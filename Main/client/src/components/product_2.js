@@ -1,3 +1,5 @@
+// TO DO - REVIEW BEFORE REMOVING???
+
 import React, { Component } from "react";
 
 export default class ProductTwo extends Component {
