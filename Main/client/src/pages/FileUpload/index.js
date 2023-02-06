@@ -1,0 +1,1 @@
+//Allow the adminn to upload pictures of new menu items
