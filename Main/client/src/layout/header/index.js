@@ -1,4 +1,7 @@
 // TO DO - ADD ROUTES
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const Header = () => {
