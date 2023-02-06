@@ -7,7 +7,7 @@ class Footer extends Component {
             <div className='footer'>
                 <div className='footer-content'>
                     <div className='footer-logo'><img src={FooterLogo} alt="Footer Logo" height={'50px'} /></div>
-                   
+
                     <div className='individual-detail'>
                         <div><Link className='detail-title' to="/">About Us</Link></div>
                     </div>
