@@ -1,0 +1,11 @@
+.product-container {
+    height: fit-content;
+  
+    @media (max-width: 768px) {
+      padding: 0 15px;
+    }
+  
+    @media (max-width: 500px) {
+      padding: 0 10px;
+    }
+  }
