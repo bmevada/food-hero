@@ -1,0 +1,122 @@
+.signUp-container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #3C1C21;
+	margin-bottom: 50px;
+
+	.signUp-header {
+		margin-top: 50px;
+		font-size: 30px;
+		font-weight: 900;
+	}
+
+	.signUp-content {
+		display: flex;
+		justify-content: center;
+
+		.email-container {
+			margin-top: 30px;
+
+			.email {
+				text-align: left;
+				width: 360px !important;
+
+				span {
+					color: #ff5656;
+					margin-left: 5px;
+					font-size: 12px;
+				}
+
+				.first-name {
+					input {
+						width: 100%;
+						border: none;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						margin: 10px 0px;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.last-name {
+					input {
+						border: none;
+						width: 100%;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						margin: 10px 0px;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.email-input {
+					input {
+						border: none;
+						width: 100%;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						margin: 10px 0px;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.password-input {
+					input {
+						border: none;
+						width: 100%;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						margin: 10px 0px;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.password-confirm {
+					input {
+						border: none;
+						width: 100%;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						margin: 10px 0px;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.show-forgot-container {
+					display: flex;
+					justify-content: space-between;
+					color: #FCA017;
+					width: 90%;
+				}
+			}
+
+			button {
+				margin-top: 40px;
+				margin-bottom: inherit;
+			}
+		}
+	}
+}
+
+@import '../../components/Button/button1.scss'
