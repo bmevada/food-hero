@@ -1,0 +1,110 @@
+.orders {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        color: #659B9B;
+        margin-bottom: 30px;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    table {
+        margin: 0px 20px;
+    }
+
+    tr {
+        font-size: 25px;
+
+        td {
+            font-size: 15px;
+
+            .cart-individual {
+                background-color: white;
+                text-align: left;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                column-gap: 20px;
+                border: 1px solid #659B9B;
+
+                .image {
+                    width: 120px;
+                    height: 80px;
+                    display: flex;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .content {
+                    color: #4c3017;
+                    margin: 0px;
+                    padding: 0px;
+                    width: 268px;
+
+                    .title {
+                        font-weight: 800;
+                        font-size: 18px;
+                    }
+
+                    .combo-part {
+                        .combo-content {
+                            color: black;
+
+                            .key {
+                                font-weight: 600;
+                            }
+
+                            .value {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+
+                    .desc {
+                        font-size: 15px;
+                    }
+
+                    .final {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .remove-edit {
+                            display: flex;
+                            align-items: center;
+                            column-gap: 30px;
+                            color: #659B9B;
+
+                            .remove {
+                                font-weight: 500;
+                                cursor: pointer;
+                            }
+
+                            .edit {
+                                font-weight: 500;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .final-price {
+                            color: #4c3017;
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

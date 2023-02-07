@@ -1,0 +1,104 @@
+.home-page {
+    margin: 0 auto;
+    max-width: 1320px;
+  
+    @media (max-width: 1320px) {
+      padding: 0px 10px
+    }
+  
+    .carousel-container {
+      .label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+  
+        .label-special {
+          font-size: 25px;
+          font-weight: 700;
+          color: #3C1C21;
+        }
+  
+        @media only screen and (max-width: $s-size) {
+          font-size: 20px;
+          margin-top: 30px;
+        }
+  
+        .navigation-button {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 20px;
+          font-weight: 400;
+          text-decoration: none;
+          color: #3C1C21;
+  
+          .navigation-seeAll {
+            font-size: 15px;
+            font-weight: 400;
+          }
+  
+          .navigation-icon {
+            color: #659B9B;
+          }
+  
+          @media only screen and (max-width: $s-size) {
+            font-size: 15px;
+          }
+        }
+      }
+  
+      .underline {
+        border-bottom: 5px solid #659B9B;
+        padding-bottom: 10px;
+        width: 181px;
+      }
+  
+      .banner {
+        background-color: white;
+        margin-top: 23px;
+        border-radius: 10px;
+  
+        @media only screen and (max-width: $s-size) {
+          margin-top: 30px;
+        }
+      }
+    }
+  
+    .product-container {
+      .label {
+        margin-top: 105px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #3C1C21;
+        text-align: left;
+      }
+  
+      .underline {
+        border-bottom: 5px solid #659B9B;
+        padding-bottom: 10px;
+        width: 50px;
+      }
+  
+      .product-list {
+        margin-top: 30px;
+        margin-bottom: 90px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+  
+        @media only screen and (max-width: 950px) {
+          justify-content: center;
+          column-gap: 60px;
+        }
+  
+        .product-item {
+          margin: 10px;
+        }
+      }
+    }
+  }
+  
+  @import '../../components/Carousel/style.scss';
+  @import '../../components/Product/product1.scss'

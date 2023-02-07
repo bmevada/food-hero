@@ -54,7 +54,7 @@ export default function CarouselElement(props) {
 					{item?.description}
 				</div>
 				<div className="detail-additional">
-					Charge for Food Delivery
+					Total Cost
 				</div>
 				<div className="detail-price">$ {item?.price}</div>
 				<hr />
