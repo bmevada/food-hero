@@ -1,4 +1,8 @@
-// TO DO - ADD ROUTES
+import React, { useState, useEffect } from 'react'
+import "./style.scss"
+import { useParams } from "react-router-dom";
+import CarouselElement from '../../components/Carousel/element';
+import axios from "axios";
 
 const Product = () => {
   let params = useParams()
