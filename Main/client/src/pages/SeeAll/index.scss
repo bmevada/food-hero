@@ -1,0 +1,29 @@
+.page-2 {
+    margin-top: -30px;
+  
+    .product-container {
+      margin: 0px 20px;
+  
+      .label {
+        font-size: 30px;
+        color: #3C1C21;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 50px;
+  
+        span {
+          padding-bottom: 10px;
+          border-bottom: 3px solid #659B9B;
+        }
+      }
+  
+      .product-list {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  
+  @import '../../components/Product/product2.scss'
