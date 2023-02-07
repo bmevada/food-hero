@@ -1,0 +1,144 @@
+.signIn-container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #3C1C21;
+	margin-bottom: 50px;
+
+	.signIn-header {
+		margin-top: 50px;
+		font-size: 30px;
+		font-weight: 900;
+		@media only screen and (max-width: 860px) {
+			margin-top: 30px;
+		}
+	}
+
+	.signIn-content {
+		max-width: 600px;
+		margin: 80px auto 0px auto;
+		padding: 0px 20px;
+		display: flex;
+		justify-content: center;
+		@media only screen and (max-width: 860px) {
+			margin: 0px auto;
+		}
+
+		.email-container {
+			flex: 1;
+
+			.email {
+				text-align: left;
+				display: flex;
+				flex-direction: column;
+				gap: 40px;
+				@media only screen and (max-width: 860px) {
+					gap: 20px;
+				}
+
+				.email-header {
+						font-size: 1.6rem;
+				}
+
+				.email-input {
+					input {
+						width: 100%;
+						border: none;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						font-size: 20px;
+
+						&:focus-visible {
+								outline: none;
+						}
+					}
+				}
+
+				.password-input {
+					input {
+						width: 100%;
+						border: none;
+						background-color: transparent;
+						border-bottom: 1px solid #ccd6d8;
+						font-size: 20px;
+
+						&:focus-visible {
+							outline: none;
+						}
+					}
+				}
+
+				.show-forgot-container {
+					display: flex;
+					justify-content: space-between;
+					color: #659B9B;
+					width: 100%;
+				}
+
+				.signIn-register-container {
+
+					display: flex;
+					align-items: center;
+					font-weight: 900;
+					gap: 20px;
+
+					.signIn-avatar {
+						background-color: #ffffff;
+					}
+
+					.signIn-button-container {
+						margin-bottom: inherit;
+						width: 30%;
+
+						button {
+							margin-bottom: inherit;
+							width: 100%;
+						}
+					}
+
+					.register-comment {
+						width: 35%;
+
+						@media only screen and (max-width: $s-size) {
+								font-size: 0.8rem;
+						}
+					}
+
+					.goto-register {
+						width: 30%;
+						
+						@media only screen and (max-width: $s-size) {
+								font-size: 0.8rem;
+						}
+
+						a {
+							color: inherit;
+							text-decoration: none;
+
+							&:hover {
+									text-decoration: underline;
+							}
+
+							&:active {
+									color: #FCA017;
+							}
+						}
+					}
+
+					.signIn-avatar {
+						padding: 5px;
+						border-radius: 50%;
+						box-shadow: 3px 5px 10px 5px #d1d1d1;
+						cursor: pointer;
+
+						@media only screen and (min-width: $x-size) {
+								display: none;
+						}
+					}
+				}
+			}
+		}
+  }
+}
+
+@import '../../components/Button/button1.scss'

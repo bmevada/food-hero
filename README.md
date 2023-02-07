@@ -50,6 +50,7 @@ Admin - to allow customers to place an order and confirm that the order has been
 ## Links to Deployed Applciations
 ```md
 Github page: https://github.com/bmevada/food-hero.git
+
 Deployed application on heroku: 
 https://git.heroku.com/food-hero.git
 ```
@@ -155,6 +156,9 @@ The following vidoes shows an example of the functionality of the application:
  - npm run seeds
  - npm i
  - npm start
+
+ Front End: npm run dev
+ Back End: npm run dev
 
 ## Presentation 
 
