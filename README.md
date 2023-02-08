@@ -168,3 +168,9 @@ Final steps to complete:
 
  Use the [Guide to Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
 
+
+To do - deploy using mongo; check stripe and nodemailer.
+Need to seed the data??
+Login via admin - add uploads
+check login page and run process for user
+as per above for admin
