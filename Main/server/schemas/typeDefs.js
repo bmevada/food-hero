@@ -1,3 +1,5 @@
+// TO DO - REVIEW AND REMOVE 
+
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
