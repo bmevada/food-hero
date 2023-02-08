@@ -1,8 +1,13 @@
-// TO DO - ADD ROUTES
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import { FaHome } from 'react-icons/fa';
+import { MdAccountCircle } from 'react-icons/md';
+import { BsBoxArrowInRight } from 'react-icons/bs';
+import jwt from 'jwt-decode'
+import Logo from "../../assets/img/logo.png"
+import { useSelector, useDispatch } from 'react-redux';
+import { logOut, tokenGenerate } from '../../redux/actions';
 
 const Header = () => {
     const items = useSelector((state) => state.token);
