@@ -1,3 +1,5 @@
+//TO DO - REMOVE ALL ITEMS IN UTILS FOLDER AS THIS IS NO LONGER NEEDED
+
 import decode from 'jwt-decode';
 
 class AuthService {

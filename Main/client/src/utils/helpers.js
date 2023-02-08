@@ -1,3 +1,5 @@
+//TO DO - REMOVE ALL ITEMS IN UTILS FOLDER AS THIS IS NO LONGER NEEDED
+
 export function pluralize(name, count) {
   if (count === 1) {
     return name;

@@ -1,4 +1,7 @@
-// TO DO - ADD ROUTES HERE
+import { useEffect, useState } from "react"
+import { BsCurrencyBitcoin, BsDashCircle } from "react-icons/bs";
+import axios from "axios"
+import "./style.scss"
 
 export default function Order() {
     const [orders, setOrders] = useState([])

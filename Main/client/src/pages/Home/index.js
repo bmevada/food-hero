@@ -1,4 +1,10 @@
-//TO DO - ADD ROUTES
+import { React, useEffect, useState } from "react"
+import { Link } from 'react-router-dom'
+import ProductOne from "../../components/Product/product1";
+import DemoCarousel from "../../components/Carousel";
+import { AiFillPlayCircle } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const Home = () => {
     let navigate = useNavigate();
