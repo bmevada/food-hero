@@ -1,0 +1,116 @@
+.card-types {
+    display: flex;
+    justify-content: space-between;
+  
+    .letter {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+  }
+  
+  .card-number {
+    margin: 5px auto 20px auto;
+  
+    .StripeElement {
+      border: 1px solid #E1E0DF;
+      border-radius: 15px;
+      background-color: #E1E0DF;
+      padding-left: 20px;
+    }
+  }
+  
+  .card-holder-name {
+    .letter {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+  
+    .holder-name {
+      font-weight: 400;
+      margin-top: 5px;
+      width: 100%;
+      height: 42px;
+      background-color: #E1E0DF;
+      border: 1px solid #E1E0DF;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      input {
+        width: 220px;
+        padding: 10px 0px;
+        border: none;
+        background-color: #E1E0DF;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #54504E;
+  
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  
+  .expire-cvv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+    .expire {
+      width: 45%;
+  
+      .letter {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+      }
+  
+      .expire-ele {
+        margin-top: 5px;
+  
+        .StripeElement {
+          width: 90%;
+          border: 1px solid #E1E0DF;
+          border-radius: 15px;
+          background-color: #E1E0DF;
+          padding-left: 10px;
+        }
+      }
+    }
+  
+    .cvv {
+      width: 45%;
+  
+      .letter {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+      }
+  
+      .cvv-ele {
+        margin-top: 5px;
+  
+        .StripeElement {
+          width: 90%;
+          border: 1px solid #E1E0DF;
+          border-radius: 15px;
+          background-color: #E1E0DF;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
