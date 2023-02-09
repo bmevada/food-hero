@@ -1,15 +1,15 @@
 // TO DO - REVIEW AND REMOVE 
 
-const db = require('../config/connection');
-const { Food } = require('../models/modalModel');
+// const db = require('../config/connection');
+// const { Food } = require('../models/modalModel');
 
-const foodData = require('./foodData.json');
+// const foodData = require('./foodData.json');
 
-db.once('open', async () => {
-  await food.deleteMany({});
+// db.once('open', async () => {
+//   await food.deleteMany({});
 
-  const food = await Food.insertMany(foodData);
+//   const food = await Food.insertMany(foodData);
 
-  console.log('Food menu seeded!');
-  process.exit(0);
-});
+//   console.log('Food menu seeded!');
+//   process.exit(0);
+// });

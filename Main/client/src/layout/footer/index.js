@@ -16,7 +16,7 @@ class Footer extends Component {
                         <div><Link className='detail-title' to="/about_us">Franchising Opportunities</Link></div>
                     </div>
                     <div className='individual-detail'>
-                        <div><Link className='detail-title' to="/about_us">Nutrition Infomation</Link></div>
+                        <div><Link className='detail-title' to="/about_us">Nutritional Infomation</Link></div>
                     </div>
 
                     <div className='individual-detail'>
