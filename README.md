@@ -109,16 +109,56 @@ Admin logs in to view orders and complete fulfilment of the orders
 
 The following vidoes shows an example of the functionality of the application:
   - **Demo Video**
-- **Homepage**
- Insert Homepage screenshot
+
+
+- **Homepage - User presented with menu**
+[Uploading Main page.png…]()
+
 - **Login Screen**
+
+
 - **Login Signup**
+
+
 - **User presented with menu**
+
+
 - **Description provided of the menu item selected**
+
+<img width="1420" alt="Product Description" src="https://user-images.githubusercontent.com/109460560/218101382-fbc406de-a81c-4ec6-8da0-78c4b371eb3f.png">
+
 - **Order Cart updated**
+<img width="1377" alt="Products added to basket" src="https://user-images.githubusercontent.com/109460560/218101371-75373b9c-f449-4916-8008-15463e42806e.png">
+
+
 - **Order Summary**
-- **Order Confirmation**
-- **Email sent to the user - order is confirmed and will be dispatched soon*
+
+<img width="1362" alt="Order Review Page" src="https://user-images.githubusercontent.com/109460560/218101224-990633dc-6078-4131-b46d-e75516173c21.png">
+
+- **Checkout Page**
+
+<img width="980" alt="Checkout Page" src="https://user-images.githubusercontent.com/109460560/218101339-f3ea4581-ba5e-47af-8fbc-975217379cc7.png">
+
+
+- **Stripe Payment**
+
+<img width="1086" alt="Stripe Payment Screen" src="https://user-images.githubusercontent.com/109460560/218101185-28f0ad2c-d4b6-40da-82fe-2dd7ca44b67b.png">
+
+- **Email sent to the user - order confirmation*
+
+<img width="761" alt="Email Confirmation" src="https://user-images.githubusercontent.com/109460560/218101109-80f26cb9-0198-446f-ad75-7e42bd963b47.png">
+
+- **MongoDB - Menu Items**
+<img width="1280" alt="MongoDB  - menu items" src="https://user-images.githubusercontent.com/109460560/218101958-1af5ae17-ea96-45b1-9372-83f6650d92f2.png">
+
+
+- **MongoDB - Users Added**
+
+<img width="1278" alt="User and Admin Successfully added" src="https://user-images.githubusercontent.com/109460560/218102005-24bf1742-1adf-4d68-8e42-33efab6534a1.png">
+
+- **MongoDB - Product Items Added by Admin**
+
+<img width="1285" alt="Products added by Admin" src="https://user-images.githubusercontent.com/109460560/218102033-88b6646a-358b-4da6-94a1-cb10643276ad.png">
 
 ## Development Technolgies Used
 ### Front End
