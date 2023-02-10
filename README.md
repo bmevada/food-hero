@@ -6,20 +6,10 @@ A MERN stack single-page application has been created that works with real-world
 
 A simple application has been created allowing the user to view the availbale meals to be delivered to their door. The database communicate with the database to place an order in real time.
 
- This app runs in the browser and features dynamically updated using various technologies as identified below. The application has been deployed using heroku. It is a clean and with a polished UI, responsive user interface that adapts to multiple screen sizes and responds to user interface.
+This app runs in the browser and features dynamically updated using various technologies as identified below. The application has been deployed using heroku. It is a clean and with a polished UI, responsive user interface that adapts to multiple screen sizes and responds to user interface.
 
 The application is interactive (i.e., accept and respond to user input); includes authentication (JWT); protects sensitive API key information on the server.
 
-
-Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
-
-* Uses a web manifest
-* Uses a service worker for offline functionality
-* Is installable
-
-### Payment Platform
-
-Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
 https://donate.stripe.com/8wM16Wc7vaJF5Fe9AA
 
