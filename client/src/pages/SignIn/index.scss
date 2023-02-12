@@ -9,6 +9,7 @@
 		margin-top: 50px;
 		font-size: 30px;
 		font-weight: 900;
+
 		@media only screen and (max-width: 860px) {
 			margin-top: 30px;
 		}
@@ -20,6 +21,7 @@
 		padding: 0px 20px;
 		display: flex;
 		justify-content: center;
+
 		@media only screen and (max-width: 860px) {
 			margin: 0px auto;
 		}
@@ -32,12 +34,13 @@
 				display: flex;
 				flex-direction: column;
 				gap: 40px;
+
 				@media only screen and (max-width: 860px) {
 					gap: 20px;
 				}
 
 				.email-header {
-						font-size: 1.6rem;
+					font-size: 1.6rem;
 				}
 
 				.email-input {
@@ -49,7 +52,7 @@
 						font-size: 20px;
 
 						&:focus-visible {
-								outline: none;
+							outline: none;
 						}
 					}
 				}
@@ -100,15 +103,15 @@
 						width: 35%;
 
 						@media only screen and (max-width: $s-size) {
-								font-size: 0.8rem;
+							font-size: 0.8rem;
 						}
 					}
 
 					.goto-register {
 						width: 30%;
-						
+
 						@media only screen and (max-width: $s-size) {
-								font-size: 0.8rem;
+							font-size: 0.8rem;
 						}
 
 						a {
@@ -116,11 +119,11 @@
 							text-decoration: none;
 
 							&:hover {
-									text-decoration: underline;
+								text-decoration: underline;
 							}
 
 							&:active {
-									color: #FCA017;
+								color: #FCA017;
 							}
 						}
 					}
@@ -132,13 +135,13 @@
 						cursor: pointer;
 
 						@media only screen and (min-width: $x-size) {
-								display: none;
+							display: none;
 						}
 					}
 				}
 			}
 		}
-  }
+	}
 }
 
 @import '../../components/Button/button1.scss'

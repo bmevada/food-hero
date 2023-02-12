@@ -69,7 +69,7 @@ const SignIn = (props) => {
                         <div className="show-forgot-container">
                             <div className="forgot-password">
                                 <a>
-                                    Forgot your password?
+                                    Forgotten your password?
                                 </a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const SignIn = (props) => {
                                 Don't have an account?
                             </div>
                             <div className="goto-register">
-                                <a href="/signup">Create one here.</a>
+                                <a href="/signup">Create an account here.</a>
                             </div>
                         </div>
                     </div>

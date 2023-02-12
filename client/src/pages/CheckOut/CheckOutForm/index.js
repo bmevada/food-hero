@@ -72,7 +72,7 @@ const PaymentForm = (props) => {
     <form onSubmit={handleSubmit}>
       <div className="card-types">
         <div className="letter">
-          <span>Please Enter card Details</span>
+          <span>Please Enter Your Card Number</span>
         </div>
       </div >
       <div className="card-number">
@@ -86,7 +86,7 @@ const PaymentForm = (props) => {
       </div>
       <div className="card-holder-name">
         <div className="letter">
-          <span>Card Holder</span>
+          <span>Card Holder Name</span>
         </div>
         <div className="holder-name">
           <input

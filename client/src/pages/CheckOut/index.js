@@ -144,7 +144,7 @@ const CheckOut = () => {
                   </FormControl>
                   <FormControl variant="standard" sx={{ ...FormCSS }}>
                     <InputLabel htmlFor="input-with-icon-adornment" sx={{ ...LabelCSS }}>
-                      Extra(Optional)
+                      Addtional Notes (Optional)
                     </InputLabel>
                     <Input
                       id="input-with-icon-adornment"
