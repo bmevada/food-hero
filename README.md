@@ -102,6 +102,7 @@ The following vidoes shows an example of the functionality of the application:
 
 
 - **Homepage - User presented with menu**
+
 [Uploading Main page.png…]()
 
 - **Login Screen**
