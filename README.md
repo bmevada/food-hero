@@ -145,16 +145,14 @@ The following vidoes shows an example of the functionality of the application:
  - jQuery - *used to minimise the the common tasks of JS*
  - css - *used for the style and layout of the page*
  - styled-components - *instead of bootstrap, concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way*
-  - semantic-ui -*component library*
+ - semantic-ui -*component library*
  - ReactJs & Redux Toolkit 
 
 
 ### Back End
 
-* Use GraphQL with a Node.js and Express.js server.
-* Use MongoDB and the Mongoose ODM for the database.
-* Use queries and mutations for retrieving, adding, updating, and deleting data.
-
+- GraphQL with a Node.js and Express.js server 
+- Use MongoDB and the Mongoose ODM for the database - *Use queries and mutations for retrieving, adding, updating, and deleting data*
  - bcrypt - *used to hash passwords*
  - dotenv - *used for environment variables*
  - express-session - *user sessions*
