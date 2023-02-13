@@ -26,6 +26,11 @@ Admin - to allow customers to place an order and confirm that the order has been
  - Deployed application on heroku: 
 https://git.heroku.com/food-hero.git
 
+## Presentation 
+
+https://docs.google.com/presentation/d/1Qwws93EXnLKJdss1O20T8mqbwv9afr9d2NkigSuI-_4/edit?usp=sharing
+
+
 ## User Story
 ```md
 AS A Customer 
@@ -164,8 +169,4 @@ The following vidoes shows an example of the functionality of the application:
  - npm install
  - npm start
 
-
-## Presentation 
-
-https://docs.google.com/presentation/d/1Qwws93EXnLKJdss1O20T8mqbwv9afr9d2NkigSuI-_4/edit?usp=sharing
 
