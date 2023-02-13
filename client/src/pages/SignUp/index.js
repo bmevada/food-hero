@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Button from "../../components/Button/button1";
 import axios from "axios";
 import { useNavigate } from 'react-router';
-import SingUpModal from "./SingUpModal";
+import SignUpModal from "./SignUpModal";
 import ErrorModal from "./ErrorModal";
 
 class SignUp extends Component {
@@ -38,31 +38,31 @@ class SignUp extends Component {
 			confirmPwAlert: ""
 		})
 
-		if (!this.fnameRef.current.value){
+		if (!this.fnameRef.current.value) {
 			this.setState({
 				firstNameAlert: "Please Enter Your First Name"
 			})
 			flag = 1;
 		}
-		if (!this.lnameRef.current.value){
+		if (!this.lnameRef.current.value) {
 			this.setState({
 				lastNameAlert: "Please Enter Your Last Name"
 			})
 			flag = 1;
 		}
-		if (!this.emailRef.current.value || !emailMatch){
+		if (!this.emailRef.current.value || !emailMatch) {
 			this.setState({
 				emailAlert: "Please Enter A Valid Email"
 			})
 			flag = 1;
 		}
-		if (!this.passwordRef.current.value){
+		if (!this.passwordRef.current.value) {
 			this.setState({
 				passwordAlert: "Please Enter A Password"
 			})
 			flag = 1;
 		}
-		if (!this.confirmPwRef.current.value){
+		if (!this.confirmPwRef.current.value) {
 			this.setState({
 				confirmPwAlert: "Please Confirm Password"
 			})
@@ -76,16 +76,16 @@ class SignUp extends Component {
 				displayName: this.fnameRef.current.value + ' ' + this.lnameRef.current.value
 			}
 
-			axios.post('/users/register',sendData)
+			axios.post('/users/register', sendData)
 				.then(res => res.data)
 				.then(data => {
-				if (data.role) {
-					this.onShow();
-				}
+					if (data.role) {
+						this.onShow();
+					}
 				})
 				.catch(error => {
 					this.onErrorShow()
-					this.setState({data: error.response.data.msg})
+					this.setState({ data: error.response.data.msg })
 				})
 		}
 	}
@@ -138,12 +138,12 @@ class SignUp extends Component {
 								<div><label>Confirm Password<span>{this.state.confirmPwAlert}</span></label></div>
 								<div className="input"><input type="password" name="confirmPassword" id="confirmPassword" ref={this.confirmPwRef} /></div>
 							</div>
-							
-							<Button value="SIGN UP" onClick={() => {this.onSignUp();}} />
+
+							<Button value="SIGN UP" onClick={() => { this.onSignUp(); }} />
 						</div>
 					</div>
 				</div>
-				<SingUpModal
+				<SignUpModal
 					show={this.state.modalShow}
 					onHide={this.onHide}
 				/>

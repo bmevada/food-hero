@@ -17,15 +17,15 @@ import { createStore } from 'redux';
 import reducer from '../src/redux/reducer/index'
 
 const store = createStore(
-  reducer,
-  window.__REDUX_DEVTOOLS_EXTENDION__&&
-  window.__REDUX_DEVTOOLS_EXTENDION__()
+    reducer,
+    window.__REDUX_DEVTOOLS_EXTENDION__ &&
+    window.__REDUX_DEVTOOLS_EXTENDION__()
 )
 
-render (
-  <Provider store={store}>
-    <App />
-  </Provider>, document.getElementById('root')
+render(
+    <Provider store={store}>
+        <App />
+    </Provider>, document.getElementById('root')
 )
 
 reportWebVitals();
