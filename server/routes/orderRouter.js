@@ -69,7 +69,7 @@ router.post("/", auth, async (req, res) => {
       service: 'Gmail',
       auth: {
         user: "food.hero.mevada@gmail.com", // generated user
-        pass: "fouklslweulennnl", // generated password
+        pass: "tphhdfqfviqrezfr", // generated password
       },
     });
 

@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './layout'
 import axios from 'axios'
 
-axios.defaults.baseURL = "http://localhost:4000"
+// axios.defaults.baseURL = "http://localhost:4000"
+axios.defaults.baseURL=`${process.env.REACT_APP_SERVER_URL}`
 
 function App() {
 

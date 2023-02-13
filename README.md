@@ -11,7 +11,7 @@ This app runs in the browser and features dynamically updated using various tech
 The application is interactive (i.e., accept and respond to user input); includes authentication (JWT); protects sensitive API key information on the server.
 
 ## Nodemailer
-password: Bootcamp@1
+password: Bootcamp@1!@#
 email: food.hero.mevada
 
 ## Motivation of Application Development 
