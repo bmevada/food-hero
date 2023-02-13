@@ -10,27 +10,9 @@ This app runs in the browser and features dynamically updated using various tech
 
 The application is interactive (i.e., accept and respond to user input); includes authentication (JWT); protects sensitive API key information on the server.
 
-
-https://donate.stripe.com/8wM16Wc7vaJF5Fe9AA
-
-pk key: pk_test_51MMhWsACbJPZAlrvPya09OyIXDvfDoXUry6hRfA7hL2IvIsqkcxidcdULpB3i51SyKhdtTyAmMUrHnXRh4TfANYo00taOsI5e5
-
-sk: sk_test_51MMhWsACbJPZAlrvwHc6cPQPBTw8Qx1dtAaFgsm6sR5X34dMVezGzoSwXe7D6bhLnBsCTPjz6ijPGeYbUU21nNZp00vvd27sMV
-
-
 ## Nodemailer
 password: Bootcamp@1
 email: food.hero.mevada
-
-### CSS Styling
-
-Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
-
-* Look into the concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include [styled-components](https://styled-components.com/) and [Emotion](https://emotion.sh/docs/introduction).
-
-* Try using a component library, such as [Semantic UI](https://semantic-ui.com/), [Chakra UI](https://chakra-ui.com/), or [Ant Design](https://ant.design/).
-
-* Create all the CSS for your application just using CSS.
 
 ## Motivation of Application Development 
 Allow a customer to order ready made meals online, so that is delivered to them at home. 
@@ -38,12 +20,12 @@ Allow a customer to order ready made meals online, so that is delivered to them 
 Admin - to allow customers to place an order and confirm that the order has been placed.
 
 ## Links to Deployed Applciations
-```md
-Github page: https://github.com/bmevada/food-hero.git
 
-Deployed application on heroku: 
+ - Github page: https://github.com/bmevada/food-hero.git
+
+ - Deployed application on heroku: 
 https://git.heroku.com/food-hero.git
-```
+
 ## User Story
 ```md
 AS A Customer 
@@ -135,7 +117,7 @@ The following vidoes shows an example of the functionality of the application:
 
 <img width="1086" alt="Stripe Payment Screen" src="https://user-images.githubusercontent.com/109460560/218101185-28f0ad2c-d4b6-40da-82fe-2dd7ca44b67b.png">
 
-- **Email sent to the user - order confirmation*
+- **Email sent to the user - order confirmation**
 
 <img width="761" alt="Email Confirmation" src="https://user-images.githubusercontent.com/109460560/218101109-80f26cb9-0198-446f-ad75-7e42bd963b47.png">
 
@@ -171,37 +153,19 @@ The following vidoes shows an example of the functionality of the application:
  - bcrypt - *used to hash passwords*
  - dotenv - *used for environment variables*
  - express-session - *user sessions*
- - express-session-sequelize - *user sessions*
- - express - *for javascript with node*
- - express-handlebars - *used for views*
- - mysql2 - *used to connect to a MySQL database for Models, and create an Express.js API for the Controllers*
- - sequelize - *used to connect to a MySQL database for Models, and create an Express.js API for the Controllers*
  - nodemailer - *for email notifications*
-
+ - stripe - *for payments*
 
 
 ## Installation Requirements
 
 1. Installation of Microsoft Visual Studio
 2. Open up Terminal within Microsoft Visual Studio and type in the following commands:
- - npm run seeds
- - npm i
+ - npm install
  - npm start
 
- Front End: npm run dev
- Back End: npm run dev
 
 ## Presentation 
 
 https://docs.google.com/presentation/d/1Qwws93EXnLKJdss1O20T8mqbwv9afr9d2NkigSuI-_4/edit?usp=sharing
 
-Final steps to complete:
-
- Use the [Guide to Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
-
-
-To do - deploy using mongo; check stripe and nodemailer.
-Need to seed the data??
-Login via admin - add uploads
-check login page and run process for user
-as per above for admin
