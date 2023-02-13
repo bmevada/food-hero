@@ -22,7 +22,7 @@ const SignUpModal = (props) => {
           <div>Do you want to sign in with your email right now?</div>
         </Modal.Body>
         <Modal.Footer>
-          <div className='YeahButton'><Button value="Yeah!" onClick={() => navigate("/signIn")}/></div>
+          <div className='YeahButton'><Button value="Yes!" onClick={() => navigate("/signIn")}/></div>
           <div className='CancelButton'><Button value="Cancel" onClick={props.onHide}>Close</Button></div>
         </Modal.Footer>
       </Modal>
