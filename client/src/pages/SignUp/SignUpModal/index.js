@@ -4,7 +4,7 @@ import Button from '../../../components/Button/button1';
 import './style.scss'
 import { useNavigate } from 'react-router';
 
-const SingUpModal = (props) => {
+const SignUpModal = (props) => {
     const navigate = useNavigate()
   
     return (
@@ -29,5 +29,5 @@ const SingUpModal = (props) => {
     );
   }
   
-  export default SingUpModal;
+  export default SignUpModal;
   
