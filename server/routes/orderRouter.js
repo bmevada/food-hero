@@ -5,6 +5,7 @@ const auth = require("../utils/auth");
 const User = require("../models/userModel");
 const Order = require("../models/orderModel");
 
+//Stripe Payment
 const stripe = new Stripe(
   `${process.env.STRIPE_SK}`,
   { apiVersion: '2022-11-15', typescript: true }
