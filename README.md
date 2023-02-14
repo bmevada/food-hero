@@ -146,14 +146,14 @@ https://drive.google.com/file/d/1RjZA6dKV6tCXfjMM0AaPrVR93NJnm8KY/view
 
 <img width="1285" alt="Products added by Admin" src="https://user-images.githubusercontent.com/109460560/218102033-88b6646a-358b-4da6-94a1-cb10643276ad.png">
 
-- **Food Hero - Landing Page for Admin when logged in - options to upload new items and review orders **
+- **Food Hero - Landing Page for Admin when logged in - options to upload new items and review orders**
 
 <img width="1117" alt="Screenshot 2023-02-13 at 14 58 45" src="https://user-images.githubusercontent.com/109460560/218628668-507ea37e-9fc3-478a-b70d-efa785c88c99.png">
 
-- **Food Hero - Admin - upload new menu item **
+- **Food Hero - Admin - upload new menu item**
 <img width="1066" alt="Screenshot 2023-02-13 at 14 59 26" src="https://user-images.githubusercontent.com/109460560/218628893-9e8ceaff-989a-4bff-a1fd-db88b0ad4742.png">
 
-- **Food Hero - Admin - review customer orders **
+- **Food Hero - Admin - review customer orders**
 
 <img width="1901" alt="Screenshot 2023-02-13 at 14 59 16" src="https://user-images.githubusercontent.com/109460560/218628991-0ddc1ba2-a498-4501-a4e0-3a22fb229606.png">
 
