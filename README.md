@@ -157,6 +157,9 @@ https://drive.google.com/file/d/1RjZA6dKV6tCXfjMM0AaPrVR93NJnm8KY/view
 
 <img width="1901" alt="Screenshot 2023-02-13 at 14 59 16" src="https://user-images.githubusercontent.com/109460560/218628991-0ddc1ba2-a498-4501-a4e0-3a22fb229606.png">
 
+- **Heroku Deployment**
+<img width="1344" alt="Screenshot 2023-02-14 at 14 50 17" src="https://user-images.githubusercontent.com/109460560/218634684-2a895b05-db69-47e0-8837-67205f3cdf29.png">
+
 
 
 ## Development Technolgies Used
