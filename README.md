@@ -116,13 +116,9 @@ https://drive.google.com/file/d/1RjZA6dKV6tCXfjMM0AaPrVR93NJnm8KY/view
 <img width="1377" alt="Products added to basket" src="https://user-images.githubusercontent.com/109460560/218101371-75373b9c-f449-4916-8008-15463e42806e.png">
 
 
-- **Order Summary**
+- **Order Summary/Checkout Page**
 
 <img width="1362" alt="Order Review Page" src="https://user-images.githubusercontent.com/109460560/218101224-990633dc-6078-4131-b46d-e75516173c21.png">
-
-- **Checkout Page**
-
-<img width="980" alt="Checkout Page" src="https://user-images.githubusercontent.com/109460560/218101339-f3ea4581-ba5e-47af-8fbc-975217379cc7.png">
 
 
 - **Stripe Payment**
