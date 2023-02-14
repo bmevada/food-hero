@@ -129,6 +129,11 @@ https://drive.google.com/file/d/1RjZA6dKV6tCXfjMM0AaPrVR93NJnm8KY/view
 
 <img width="1086" alt="Stripe Payment Screen" src="https://user-images.githubusercontent.com/109460560/218101185-28f0ad2c-d4b6-40da-82fe-2dd7ca44b67b.png">
 
+- **Stripe Payment - success**
+
+<img width="1330" alt="Screenshot 2023-02-14 at 14 24 56" src="https://user-images.githubusercontent.com/109460560/218631337-87be2b56-6250-4cbf-a6b2-016f28b72972.png">
+
+
 - **Email sent to the user - order confirmation**
 
 <img width="761" alt="Email Confirmation" src="https://user-images.githubusercontent.com/109460560/218101109-80f26cb9-0198-446f-ad75-7e42bd963b47.png">
