@@ -10,14 +10,15 @@ This app runs in the browser and features dynamically updated using various tech
 
 The application is interactive (i.e., accept and respond to user input); includes authentication (JWT); protects sensitive API key information on the server.
 
-## Nodemailer
-password: Bootcamp@1!@#
-email: food.hero.mevada
-
 ## Motivation of Application Development 
+
+CUSTOMER
 Allow a customer to order ready made meals online, so that is delivered to them at home. 
 
-Admin - to allow customers to place an order and confirm that the order has been placed.
+ADMIN
+To allow customers to place an order, and confirm that the order has been placed, and view all customer orders.
+
+````
 
 ## Links to Deployed Applciations
 
@@ -85,20 +86,26 @@ Admin logs in to view orders and complete fulfilment of the orders
 ## Mock Up
 
 The following vidoes shows an example of the functionality of the application:
+
   - **Demo Video**
+CUSTOMER INTERFACE
+https://drive.google.com/file/d/1_D4gcuXMcZOXNSPrr87Q9T3MKsBAOj_q/view
 
+ADMIN INTERFACE
+https://drive.google.com/file/d/1RjZA6dKV6tCXfjMM0AaPrVR93NJnm8KY/view
 
-- **Homepage - User presented with menu**
+- **Homepage - Landing page / User presented with menu**
 
-[Uploading Main page.png…]()
+<img width="1160" alt="Screenshot 2023-02-14 at 14 09 28" src="https://user-images.githubusercontent.com/109460560/218629289-ecbb52c7-ba9e-4569-a30b-b7dc6cc33d07.png">
+
 
 - **Login Screen**
+<img width="1093" alt="Screenshot 2023-02-13 at 14 37 23" src="https://user-images.githubusercontent.com/109460560/218629461-43b6f4a8-5c41-4c42-abfa-b1c3b35a4d2c.png">
 
 
-- **Login Signup**
+- **New User Signup**
+<img width="1105" alt="Screenshot 2023-02-13 at 14 39 06" src="https://user-images.githubusercontent.com/109460560/218629057-c26cb1b3-0df1-499d-95ad-e9102be7b057.png">
 
-
-- **User presented with menu**
 
 
 - **Description provided of the menu item selected**
@@ -138,6 +145,19 @@ The following vidoes shows an example of the functionality of the application:
 
 <img width="1285" alt="Products added by Admin" src="https://user-images.githubusercontent.com/109460560/218102033-88b6646a-358b-4da6-94a1-cb10643276ad.png">
 
+- **Food Hero - Landing Page for Admin when logged in - options to upload new items and review orders **
+
+<img width="1117" alt="Screenshot 2023-02-13 at 14 58 45" src="https://user-images.githubusercontent.com/109460560/218628668-507ea37e-9fc3-478a-b70d-efa785c88c99.png">
+
+- **Food Hero - Admin - upload new menu item **
+<img width="1066" alt="Screenshot 2023-02-13 at 14 59 26" src="https://user-images.githubusercontent.com/109460560/218628893-9e8ceaff-989a-4bff-a1fd-db88b0ad4742.png">
+
+- **Food Hero - Admin - review customer orders **
+
+<img width="1901" alt="Screenshot 2023-02-13 at 14 59 16" src="https://user-images.githubusercontent.com/109460560/218628991-0ddc1ba2-a498-4501-a4e0-3a22fb229606.png">
+
+
+
 ## Development Technolgies Used
 ### Front End
  - Use React for the front end.
@@ -163,7 +183,7 @@ The following vidoes shows an example of the functionality of the application:
 ## Installation Requirements
 
 1. Installation of Microsoft Visual Studio
-2. Open up Terminal within Microsoft Visual Studio and type in the following commands:
+2. Open up Terminal within Microsoft Visual Studio and type in the following commands firstly for backend and then frontend:
  - npm install
  - npm start
 
